@@ -9008,7 +9008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 41.5641 181.61 0)
 			(effects
 				(font
@@ -9026,7 +9026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 42.164 158.877 0)
 			(effects
 				(font
@@ -9650,7 +9650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 89.8241 127 0)
 			(effects
 				(font
@@ -9668,7 +9668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 90.424 104.267 0)
 			(effects
 				(font
@@ -9888,7 +9888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 89.8241 181.61 0)
 			(effects
 				(font
@@ -9906,7 +9906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 90.424 158.877 0)
 			(effects
 				(font
@@ -9994,7 +9994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 89.8241 72.39 0)
 			(effects
 				(font
@@ -10012,7 +10012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 90.424 49.657 0)
 			(effects
 				(font
@@ -10368,7 +10368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 41.5641 127 0)
 			(effects
 				(font
@@ -10386,7 +10386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 42.164 104.267 0)
 			(effects
 				(font
@@ -12330,7 +12330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0104PW"
+		(property "Value" "TXU0104PW"
 			(at 41.5641 72.39 0)
 			(effects
 				(font
@@ -12348,7 +12348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
 			(at 42.164 49.657 0)
 			(effects
 				(font
