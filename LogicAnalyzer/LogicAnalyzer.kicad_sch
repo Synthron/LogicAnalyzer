@@ -1862,639 +1862,6 @@
 				)
 			)
 		)
-		(symbol "Logic_LevelTranslator:TXB0104PW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TXB0104PW"
-				(at 3.81 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
-				(at 2.794 2.413 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP*14*5mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TXB0104PW_0_1"
-				(rectangle
-					(start -7.62 -15.24)
-					(end -7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 15.24)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -7.747) (xy -2.286 -6.731) (xy -0.508 -6.731)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -2.667) (xy -2.286 -1.651) (xy -0.508 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 2.413) (xy -2.286 3.429) (xy -0.508 3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 7.493) (xy -2.286 8.509) (xy -0.508 8.509)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -7.747) (xy 3.048 -8.763) (xy 1.27 -8.763)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -2.667) (xy 3.048 -3.683) (xy 1.27 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 2.413) (xy 3.048 1.397) (xy 1.27 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 7.493) (xy 3.048 6.477) (xy 1.27 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -8.763) (xy -2.286 -8.763) (xy -2.286 -7.747) (xy -4.064 -7.747)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -8.763) (xy 1.27 -7.747) (xy 1.27 -9.779) (xy -0.508 -8.763)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.683) (xy -2.286 -3.683) (xy -2.286 -2.667) (xy -4.064 -2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.683) (xy 1.27 -2.667) (xy 1.27 -4.699) (xy -0.508 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.397) (xy -2.286 1.397) (xy -2.286 2.413) (xy -4.064 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.397) (xy 1.27 2.413) (xy 1.27 0.381) (xy -0.508 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 6.477) (xy -2.286 6.477) (xy -2.286 7.493) (xy -4.318 7.493)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 6.477) (xy 1.27 7.493) (xy 1.27 5.461) (xy -0.508 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.731) (xy -0.508 -7.747) (xy -0.508 -5.715) (xy 1.27 -6.731)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.731) (xy 3.048 -6.731) (xy 3.048 -7.747) (xy 4.318 -7.747)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.651) (xy -0.508 -2.667) (xy -0.508 -0.635) (xy 1.27 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.651) (xy 3.048 -1.651) (xy 3.048 -2.667) (xy 4.318 -2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.429) (xy -0.508 2.413) (xy -0.508 4.445) (xy 1.27 3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.429) (xy 3.048 3.429) (xy 3.048 2.413) (xy 4.318 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.509) (xy -0.508 7.493) (xy -0.508 9.525) (xy 1.27 8.509)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.509) (xy 3.048 8.509) (xy 3.048 7.493) (xy 4.318 7.493)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TXB0104PW_1_1"
-				(pin power_in line
-					(at -2.54 17.78 270)
-					(length 2.54)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 17.78 270)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -12.7 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -12.7 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3408,6 +2775,566 @@
 					(at -17.78 3.81 0)
 					(length 2.54)
 					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TXB0104PW_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 2.1941 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TXU0104PW"
+				(at 2.1941 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+				(at 2.794 2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*14*5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TXB0104PW_2_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -7.62) (xy -4.318 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.54) (xy -4.318 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy -4.318 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 7.62) (xy -4.318 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 4.064 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 4.064 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 4.064 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 4.064 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy 0 -0.762) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 4.318) (xy 0 4.318) (xy 0 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 9.398) (xy 0 9.398) (xy 0 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy -0.508 -8.636) (xy -0.508 -6.604) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -0.508 -3.556) (xy -0.508 -1.524) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -0.508 1.524) (xy -0.508 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -0.508 6.604) (xy -0.508 8.636) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.858) (xy 0 -5.842) (xy -1.524 -5.842) (xy -1.524 9.398) (xy -5.842 9.398) (xy -5.842 11.684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TXB0104PW_2_1_1"
+				(circle
+					(center -1.524 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.524 4.318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.524 9.398)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -12.7 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -12.7 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8196,6 +8123,113 @@
 		)
 	)
 	(symbol
+		(lib_name "TXB0104PW_2")
+		(lib_id "Logic_LevelTranslator:TXB0104PW")
+		(at 87.63 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a73c8d-b979-4587-b850-4f5cabbf2efe")
+		(property "Reference" "U6"
+			(at 89.8241 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0104PW"
+			(at 89.8241 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 87.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+			(at 90.424 158.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "e7809926-cfe7-4490-8943-3df2c8df04a7")
+		)
+		(pin "10"
+			(uuid "96e086b0-6bf4-446e-8ea9-d5aa08cf48e5")
+		)
+		(pin "1"
+			(uuid "d7e011ed-e5e7-4390-bc46-731f59fece87")
+		)
+		(pin "11"
+			(uuid "677fc03d-4dfd-4e3f-a566-989214659213")
+		)
+		(pin "4"
+			(uuid "7d4eedb6-4827-499b-ae99-cd7235c47312")
+		)
+		(pin "6"
+			(uuid "2909a830-e09b-44f0-9c53-11dad27c3c06")
+		)
+		(pin "5"
+			(uuid "111f3a99-2715-4fd6-a81e-b678ffbf9db6")
+		)
+		(pin "2"
+			(uuid "f796537e-d39a-4c23-866a-900ed39451a2")
+		)
+		(pin "3"
+			(uuid "ecec199c-d8d4-419e-a77d-7e864dd15911")
+		)
+		(pin "8"
+			(uuid "3f350a8d-f5eb-4234-b649-5878e57b7996")
+		)
+		(pin "9"
+			(uuid "8231cc77-03fb-45a1-9b57-82d574c17ff5")
+		)
+		(pin "7"
+			(uuid "a2039415-216c-424d-9e3f-bc680c66c022")
+		)
+		(pin "12"
+			(uuid "b7d94b41-8fb4-4ca3-be41-60b18f629ebd")
+		)
+		(pin "13"
+			(uuid "97294aec-fbd4-468c-93f0-973660496149")
+		)
+		(instances
+			(project "LogicAnalyzer"
+				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 43.18 90)
 		(mirror x)
@@ -8926,112 +8960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 39.37 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bfe1768-3c06-46da-975f-1656ba93e493")
-		(property "Reference" "U3"
-			(at 41.5641 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXU0104PW"
-			(at 41.5641 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 39.37 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
-			(at 42.164 158.877 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "a13a7610-5619-425e-a759-c88fb32a7f3d")
-		)
-		(pin "10"
-			(uuid "6a215a22-25cc-4efe-9ca5-675738f4aee9")
-		)
-		(pin "1"
-			(uuid "00e38330-5d1f-4a83-9c3a-28b896f3c4de")
-		)
-		(pin "11"
-			(uuid "98d56ff1-5617-4cc2-a57d-bf53d663a828")
-		)
-		(pin "4"
-			(uuid "132bea68-5edb-48b6-9fc5-8bcd87746241")
-		)
-		(pin "6"
-			(uuid "99259a74-fa80-44e6-ae5f-96ea85de384d")
-		)
-		(pin "5"
-			(uuid "9a4c2a29-b4de-430e-9bf3-2bf5ed977402")
-		)
-		(pin "2"
-			(uuid "79eb9199-bb0b-4a19-bbd8-d36c55666ecc")
-		)
-		(pin "3"
-			(uuid "98e1fc7c-1e14-4848-bd9a-cc764fa3c0db")
-		)
-		(pin "8"
-			(uuid "c29104a8-e15d-4419-89a8-24dc4634e509")
-		)
-		(pin "9"
-			(uuid "161c62a8-3734-47f3-b715-4ea37534a17d")
-		)
-		(pin "7"
-			(uuid "ed03bb75-2cbf-45f5-b17b-b2e6c86534dd")
-		)
-		(pin "12"
-			(uuid "dce25c29-526b-43aa-a5ff-514cebe89ed6")
-		)
-		(pin "13"
-			(uuid "f324453b-a365-4a5b-805f-83dd0a39a4d6")
-		)
-		(instances
-			(project "LogicAnalyzer"
-				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 156.21 0)
 		(unit 1)
@@ -9092,6 +9020,113 @@
 			(project ""
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TXB0104PW_2")
+		(lib_id "Logic_LevelTranslator:TXB0104PW")
+		(at 87.63 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5722ab34-1a39-46b9-986d-efa3e704c413")
+		(property "Reference" "U4"
+			(at 89.8241 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0104PW"
+			(at 89.8241 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+			(at 90.424 49.657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "f9708c2c-0a11-4eae-a0c7-dca4d72a06ca")
+		)
+		(pin "10"
+			(uuid "dc12757a-801c-4ec3-977f-efc716eac725")
+		)
+		(pin "1"
+			(uuid "bda97f9c-66c3-4523-9ccc-53203f697bf4")
+		)
+		(pin "11"
+			(uuid "83f41b1a-15fc-44e4-90c1-e95645e8838d")
+		)
+		(pin "4"
+			(uuid "37acbb58-f8f6-4c77-99ce-4717a6a811ac")
+		)
+		(pin "6"
+			(uuid "daa8f704-851a-426d-981e-1f27a10938b7")
+		)
+		(pin "5"
+			(uuid "5b293203-946b-4725-b357-4f8086ef2772")
+		)
+		(pin "2"
+			(uuid "16258cb1-65e8-4ff3-a882-60c2f18ba99e")
+		)
+		(pin "3"
+			(uuid "5833417f-0d7c-46ef-9c50-53771c0114a5")
+		)
+		(pin "8"
+			(uuid "cb0c49b7-acba-4899-8f53-136dc1e6fa9e")
+		)
+		(pin "9"
+			(uuid "3d1a427c-3b4d-4878-b3d4-6fc2cb305b9a")
+		)
+		(pin "7"
+			(uuid "7fc5766b-312e-4339-b0ae-7b5706564d2f")
+		)
+		(pin "12"
+			(uuid "3feb7661-574f-453b-8983-f2cc40601331")
+		)
+		(pin "13"
+			(uuid "eaf8ffd3-51e2-4fae-8c4c-fdd1cc0e8332")
+		)
+		(instances
+			(project "LogicAnalyzer"
+				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9568,6 +9603,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TXB0104PW_2")
 		(lib_id "Logic_LevelTranslator:TXB0104PW")
 		(at 87.63 106.68 0)
 		(unit 1)
@@ -9576,7 +9612,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8156f71a-80f4-4842-a7f9-93148c619042")
+		(uuid "7c4fdd5b-7772-4eb7-9f8a-f7671f9d4c18")
 		(property "Reference" "U5"
 			(at 89.8241 124.46 0)
 			(effects
@@ -9623,46 +9659,46 @@
 			)
 		)
 		(pin "14"
-			(uuid "321cf055-525a-4240-bfd0-6078476ca502")
+			(uuid "87713121-c425-4986-969a-aa1a0fb58d6a")
 		)
 		(pin "10"
-			(uuid "440105a7-71c9-42f0-9296-ad0ae525141d")
+			(uuid "53c8e8ed-efaf-4f56-b193-c4827e45675e")
 		)
 		(pin "1"
-			(uuid "6389e6d1-0a9a-48d1-ac3c-e3b54de6878b")
+			(uuid "ccd40b4a-9560-4b16-b9f0-728e59ede03c")
 		)
 		(pin "11"
-			(uuid "ce9fdb8d-cd1c-485b-a6a2-ea6d957504db")
+			(uuid "b5f0013d-e8ea-4ccf-a2fd-0c2fe1fe8b8d")
 		)
 		(pin "4"
-			(uuid "058f2c65-f694-4564-944d-d0cc2429d578")
+			(uuid "e3953425-0004-4337-90e9-4296efc7b5c8")
 		)
 		(pin "6"
-			(uuid "ce47826e-b100-4db0-93dc-598c3673ac48")
+			(uuid "41187476-31bc-4a25-829e-fc387b836c00")
 		)
 		(pin "5"
-			(uuid "b5f3d597-ab0c-44fb-a3be-3a5e7c9cfdf5")
+			(uuid "f2c2ad46-a754-4975-a3f4-8e331aca68fd")
 		)
 		(pin "2"
-			(uuid "d866649d-f2fd-4841-8185-809cb34a62e2")
+			(uuid "e2423eb4-6159-4de0-a9e0-52fc981b5dd3")
 		)
 		(pin "3"
-			(uuid "20cc17cb-2861-47ce-969d-7e084e46b97c")
+			(uuid "2a85c116-4be8-4792-9058-dcec89aa8080")
 		)
 		(pin "8"
-			(uuid "5142e75e-26b4-40fc-b20a-edba3609a554")
+			(uuid "fdfd1847-b5cb-4739-b859-f02d8960d4d6")
 		)
 		(pin "9"
-			(uuid "8d78cd83-ff5c-48e9-bf87-56d1b38d4b29")
+			(uuid "619ca06c-e72d-49bb-aa21-016462574568")
 		)
 		(pin "7"
-			(uuid "4ba05b6f-719a-4200-9bf3-72d7312276a7")
+			(uuid "2c742a65-5bbb-4ed0-a384-2b24f8cae3da")
 		)
 		(pin "12"
-			(uuid "7ad8af17-af2b-43ba-8c22-1c34fdefc9f9")
+			(uuid "8a91314c-e634-449c-be49-70a95060e5fe")
 		)
 		(pin "13"
-			(uuid "711018d1-8d7b-4690-b279-9923f73ef17a")
+			(uuid "319d45eb-d723-4622-8c56-e5c0ac9ade72")
 		)
 		(instances
 			(project "LogicAnalyzer"
@@ -9800,218 +9836,6 @@
 			(project "LogicAnalyzer"
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 87.63 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cc0becf-e791-4b30-91ad-d27ba4ead7f4")
-		(property "Reference" "U6"
-			(at 89.8241 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXU0104PW"
-			(at 89.8241 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 87.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
-			(at 90.424 158.877 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "5adff069-045c-42c0-ac43-fff5904eca05")
-		)
-		(pin "10"
-			(uuid "76aa63b1-488f-42a0-9167-f257bc259032")
-		)
-		(pin "1"
-			(uuid "f9649f6a-75f3-410c-bad5-ba2f12c8f1e0")
-		)
-		(pin "11"
-			(uuid "9fbcb7f8-4102-4270-b956-3c5c1d58c795")
-		)
-		(pin "4"
-			(uuid "a7b341cd-4bf6-4317-87c8-706b87e08b80")
-		)
-		(pin "6"
-			(uuid "1ffdd44f-5614-45bb-a127-08346dc56ae2")
-		)
-		(pin "5"
-			(uuid "40e91560-98e4-4912-828f-3ee5ba9c578c")
-		)
-		(pin "2"
-			(uuid "8b060a6f-3760-4287-8fe7-840e7e9cacfe")
-		)
-		(pin "3"
-			(uuid "6cf1fd0f-d451-4e1d-91ed-e5dc2e711b17")
-		)
-		(pin "8"
-			(uuid "2e055a38-5d3b-4ee5-a300-73505da4953c")
-		)
-		(pin "9"
-			(uuid "72e6f151-6248-4090-9e4a-30e509998bd3")
-		)
-		(pin "7"
-			(uuid "edd01747-a281-4aa4-8fc7-f2c4aca8c803")
-		)
-		(pin "12"
-			(uuid "ef87c4af-ff6d-4b74-ba42-a6397e3dfc9c")
-		)
-		(pin "13"
-			(uuid "195d0a26-9bbf-49ed-9f51-9118956afe78")
-		)
-		(instances
-			(project "LogicAnalyzer"
-				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 87.63 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98075932-bf0f-42e4-9d11-307811bf2ae8")
-		(property "Reference" "U4"
-			(at 89.8241 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXU0104PW"
-			(at 89.8241 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 87.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
-			(at 90.424 49.657 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 87.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "6160c21d-94bd-4b1f-b7ea-6068595a9a90")
-		)
-		(pin "10"
-			(uuid "be228b6c-a871-4f66-91c9-c768315c5e7e")
-		)
-		(pin "1"
-			(uuid "2f5c2fdd-58fe-492c-8bbd-9884fc10e6ea")
-		)
-		(pin "11"
-			(uuid "7ebefe13-5b25-4f93-bb3a-06a0373d457e")
-		)
-		(pin "4"
-			(uuid "872e2839-fff1-45fd-8872-9cfe5dd16ce1")
-		)
-		(pin "6"
-			(uuid "c835abd9-31dd-411f-8215-0571aa297b24")
-		)
-		(pin "5"
-			(uuid "9e9c3d74-f28d-4c95-9d02-889ebc652943")
-		)
-		(pin "2"
-			(uuid "5a78b26a-599e-4768-98ef-57d8bd102242")
-		)
-		(pin "3"
-			(uuid "0a7384e8-e10c-438a-a5d7-e8ad1b46e878")
-		)
-		(pin "8"
-			(uuid "781d43bd-3944-4b98-be5a-b8fb957ab191")
-		)
-		(pin "9"
-			(uuid "5ccf41f1-ab0d-47c4-95c0-cb39237a1968")
-		)
-		(pin "7"
-			(uuid "93d5b7b6-3f96-41db-ba43-fde9a4ed65c9")
-		)
-		(pin "12"
-			(uuid "ed8fc8cd-a543-465b-897f-990f9f6d9474")
-		)
-		(pin "13"
-			(uuid "10b5a151-df2c-4f03-be52-82c07c194ee3")
-		)
-		(instances
-			(project "LogicAnalyzer"
-				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10280,112 +10104,6 @@
 			(project "LogicAnalyzer"
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 39.37 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4afa66d-dec3-487e-ad3e-a8349b81afd2")
-		(property "Reference" "U2"
-			(at 41.5641 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXU0104PW"
-			(at 41.5641 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
-			(at 42.164 104.267 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 39.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "aa134436-b3bc-46ca-bb1e-c5547d209bbb")
-		)
-		(pin "10"
-			(uuid "5a722ecd-5e9d-4035-ae78-599aedf1db85")
-		)
-		(pin "1"
-			(uuid "943a2456-27c9-4b86-b738-317e513df6fc")
-		)
-		(pin "11"
-			(uuid "98f2d51a-2a4f-4e93-b450-91e188889453")
-		)
-		(pin "4"
-			(uuid "5435435d-31c6-45e6-b74b-e1c7e6bbc190")
-		)
-		(pin "6"
-			(uuid "99c90e7a-52eb-4e0e-9975-0d155427cb00")
-		)
-		(pin "5"
-			(uuid "19f601e4-637e-4cb6-8cb9-1c63ae7f3957")
-		)
-		(pin "2"
-			(uuid "caf62bb5-8b56-42a2-98d4-409ca073be3e")
-		)
-		(pin "3"
-			(uuid "1d2c0c58-3b50-4d5c-9e58-97bfa1273f6e")
-		)
-		(pin "8"
-			(uuid "d7c95b12-e221-4b2d-954f-37e97dd41dc4")
-		)
-		(pin "9"
-			(uuid "a1d112d2-8cbb-4fb6-8f8e-5cfe90d4c6ed")
-		)
-		(pin "7"
-			(uuid "f00a64d9-6b22-4b92-81da-6f1e8816538b")
-		)
-		(pin "12"
-			(uuid "0b47168a-3cfb-4df3-8462-7f83de031224")
-		)
-		(pin "13"
-			(uuid "5c12a5c5-ca48-4040-897e-5707bb42b46a")
-		)
-		(instances
-			(project "LogicAnalyzer"
-				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10748,6 +10466,113 @@
 			(project ""
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TXB0104PW_2")
+		(lib_id "Logic_LevelTranslator:TXB0104PW")
+		(at 39.37 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfef16f4-a023-49a2-aed2-b44e625ecb9c")
+		(property "Reference" "U2"
+			(at 41.5641 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0104PW"
+			(at 41.5641 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+			(at 42.164 104.267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+			(at 39.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "0bbc10ae-aee3-4573-88c8-831e0f253303")
+		)
+		(pin "10"
+			(uuid "a25e7f4e-abc8-4aa6-9121-fb3f38c3acf2")
+		)
+		(pin "1"
+			(uuid "b74ae864-cc2d-4547-a88f-43c0ce69a239")
+		)
+		(pin "11"
+			(uuid "3801580c-17cb-46a8-9799-5b2db961ee89")
+		)
+		(pin "4"
+			(uuid "6b5c73c8-00d6-40fc-a3e9-c872279ed031")
+		)
+		(pin "6"
+			(uuid "c0cf6e83-0767-4820-a6fe-389d7b45911e")
+		)
+		(pin "5"
+			(uuid "54dadc7e-c223-4ba8-aa17-4e3a5d1a73ad")
+		)
+		(pin "2"
+			(uuid "1212f8dc-cdeb-4ba6-8191-c8b3e3de934f")
+		)
+		(pin "3"
+			(uuid "9c7ad9e8-fd2c-4f45-8454-86eaee5c2498")
+		)
+		(pin "8"
+			(uuid "83e70f6e-6c6d-42eb-820c-dff5301bc0aa")
+		)
+		(pin "9"
+			(uuid "d8e48e46-94fe-4d1e-8558-66a98d9c15f4")
+		)
+		(pin "7"
+			(uuid "1febd2c5-e1ab-4880-a185-048700021a0f")
+		)
+		(pin "12"
+			(uuid "36e695b4-fd82-4c84-82c1-2947d588b760")
+		)
+		(pin "13"
+			(uuid "85894d73-11d3-485f-94be-14513f05f549")
+		)
+		(instances
+			(project "LogicAnalyzer"
+				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11152,6 +10977,113 @@
 			(project "LogicAnalyzer"
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TXB0104PW_2")
+		(lib_id "Logic_LevelTranslator:TXB0104PW")
+		(at 39.37 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2dc0e9-420c-4624-ad6c-553ab8fff456")
+		(property "Reference" "U1"
+			(at 41.5641 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0104PW"
+			(at 41.5641 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+			(at 42.164 49.657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "f7d68149-c36a-4c60-91a2-3cfd88ed26ae")
+		)
+		(pin "10"
+			(uuid "cfbe1645-122c-4df3-8633-6c0fa60ccb90")
+		)
+		(pin "1"
+			(uuid "9b488de9-4604-4d2f-9b00-c9a54951194c")
+		)
+		(pin "11"
+			(uuid "96ccb07c-1ac1-4270-8e07-3256964e884f")
+		)
+		(pin "4"
+			(uuid "3faa50dc-9b47-4065-8b8b-2e2362c3ce80")
+		)
+		(pin "6"
+			(uuid "21e0f288-21d2-4063-a823-b5e4beaefc4e")
+		)
+		(pin "5"
+			(uuid "03400d57-f5fc-4ab0-b500-45398c965edc")
+		)
+		(pin "2"
+			(uuid "9066b692-b3db-4073-a5e9-22ae8be6b6f6")
+		)
+		(pin "3"
+			(uuid "2f86e0dc-8ddb-4d05-892a-cd0c74891cc0")
+		)
+		(pin "8"
+			(uuid "b5334a67-d892-407f-8283-a0907c238b6e")
+		)
+		(pin "9"
+			(uuid "e1ecd6cf-a353-45e5-bd47-ce4b1ce0d995")
+		)
+		(pin "7"
+			(uuid "51ca2adf-8358-41f2-a6c7-e0de7583e286")
+		)
+		(pin "12"
+			(uuid "899b0398-2c86-4339-bcfc-af5bb5af15f2")
+		)
+		(pin "13"
+			(uuid "19d89f42-e961-452f-a2df-d3d003a023ab")
+		)
+		(instances
+			(project "LogicAnalyzer"
+				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11788,6 +11720,113 @@
 		)
 	)
 	(symbol
+		(lib_name "TXB0104PW_2")
+		(lib_id "Logic_LevelTranslator:TXB0104PW")
+		(at 39.37 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f5e6e0-4aec-493d-a5f1-af35691b973d")
+		(property "Reference" "U3"
+			(at 41.5641 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0104PW"
+			(at 41.5641 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 39.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
+			(at 42.164 158.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "7c513514-4dbe-484b-9b47-bcc419e91f55")
+		)
+		(pin "10"
+			(uuid "fea47871-150a-4d12-9199-7c0395c93e03")
+		)
+		(pin "1"
+			(uuid "be312365-e093-4d38-9543-e5419b30e6af")
+		)
+		(pin "11"
+			(uuid "566cacac-3beb-4af4-a0dc-3d1acbcdd8f3")
+		)
+		(pin "4"
+			(uuid "c04240cd-f1e1-466b-9fa3-de142e95e032")
+		)
+		(pin "6"
+			(uuid "4be46bb4-f874-45f0-8fde-0f63aa8416ea")
+		)
+		(pin "5"
+			(uuid "34779a24-e2fb-48d1-9580-d72acb04d33c")
+		)
+		(pin "2"
+			(uuid "618656aa-bcce-48dd-bd49-36e09f5e2fe4")
+		)
+		(pin "3"
+			(uuid "af862ebc-06c0-44db-a37b-3a47dedf1bab")
+		)
+		(pin "8"
+			(uuid "21d7b102-14b8-464a-8edb-09fc2a734d03")
+		)
+		(pin "9"
+			(uuid "99e04fa0-c54d-41aa-9943-5b470c833275")
+		)
+		(pin "7"
+			(uuid "fc0c6590-542f-4e39-8f2c-01ce5d33a895")
+		)
+		(pin "12"
+			(uuid "0f564c33-2c92-4d99-8e73-81fc2c6f94ca")
+		)
+		(pin "13"
+			(uuid "1a5df091-26ca-452e-95a1-482067a26723")
+		)
+		(instances
+			(project "LogicAnalyzer"
+				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 156.21 0)
 		(unit 1)
@@ -12242,112 +12281,6 @@
 			(project "LogicAnalyzer"
 				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 39.37 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffea7794-fa63-456d-a271-58ff7e3009d3")
-		(property "Reference" "U1"
-			(at 41.5641 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXU0104PW"
-			(at 41.5641 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0104.pdf"
-			(at 42.164 49.657 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 39.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "c1347a42-ad32-47c9-bba4-7dd32d0b90bb")
-		)
-		(pin "10"
-			(uuid "cea3fe80-0e44-4893-b41e-9cb5724554b3")
-		)
-		(pin "1"
-			(uuid "7e197023-5cfb-40ea-8279-7fcd51ff9959")
-		)
-		(pin "11"
-			(uuid "37498f80-4940-4b70-9848-bacb0703f293")
-		)
-		(pin "4"
-			(uuid "6014d108-1f53-4f47-9c3a-b4dccbd7c8f9")
-		)
-		(pin "6"
-			(uuid "74fed8ac-3931-41ba-a0c4-720919875596")
-		)
-		(pin "5"
-			(uuid "55f6d0aa-e2a8-4a27-b06f-e572026ff743")
-		)
-		(pin "2"
-			(uuid "8e6ab44d-3acc-4b91-a25e-618edb12fee5")
-		)
-		(pin "3"
-			(uuid "4a1660c9-35b5-428e-b184-938c58386ea6")
-		)
-		(pin "8"
-			(uuid "d4979e00-a359-4e9e-9ebe-2c8fafe348be")
-		)
-		(pin "9"
-			(uuid "84e5fa79-baff-46c7-8cc4-1ccf03b3ca87")
-		)
-		(pin "7"
-			(uuid "76784a2c-b435-45e5-9fe5-74a36f320ed7")
-		)
-		(pin "12"
-			(uuid "eaa03aa0-6f69-40a4-a214-69838c555fbc")
-		)
-		(pin "13"
-			(uuid "10789de6-e66c-4d70-a556-f6745b389255")
-		)
-		(instances
-			(project ""
-				(path "/182dbd66-1aac-4aeb-9621-9909e037a8f2"
-					(reference "U1")
 					(unit 1)
 				)
 			)
